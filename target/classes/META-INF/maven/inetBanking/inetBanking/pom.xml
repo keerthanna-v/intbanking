@@ -99,8 +99,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <release>${java.release.version}</release>
-                    <encoding>${maven.source.encoding}</encoding>
+                        <source>1.8</source>
+          <target>1.8</target>
                     <forceJavacCompilerUse>true</forceJavacCompilerUse>
                 </configuration>
             </plugin>
